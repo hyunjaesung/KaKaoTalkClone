@@ -1,6 +1,7 @@
 .search-bar{
   padding: 10px 25px;
   position: relative;
+  z-index: 1;
 }
 
 .search-bar input{
@@ -12,7 +13,7 @@
   background-color: : #f1f2f3;
   font-size: 13px;
   text-align: center;
-  
+
 }
 
 .search-bar input:focus{
