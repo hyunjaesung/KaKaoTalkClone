@@ -46,6 +46,7 @@
 }
 
 .chat-btn{
+  transition: all .3s ease-in-out;
   width:60px;
   height: 60px;
   background-color: #ffe94a;
@@ -60,4 +61,11 @@
   color:#523737;
   font-weight: 700;
   box-shadow: 0 1px 10px rgba(0,0,0,0.5)
+
+
+}
+
+.chat-btn:hover{
+  color:white;
+  background: #523737;
 }
